@@ -4,6 +4,8 @@ strat = np.genfromtxt('input.txt', dtype='str')
 
 score = 0
 
+# I know this is a pretty dumb solution
+
 for opponent, player in strat:
     if player == 'X':
         score += 1
