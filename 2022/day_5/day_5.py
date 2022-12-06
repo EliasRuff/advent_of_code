@@ -1,4 +1,3 @@
-import numpy as np
 import copy
 
 crates = [[] for y in range(9)]
